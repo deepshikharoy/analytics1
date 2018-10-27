@@ -1,0 +1,614 @@
+
+Call:
+lm(formula = mpg ~ wt, data = mtcars)
+
+Coefficients:
+(Intercept)           wt  
+      37.29        -5.34  
+
+                     mpg cyl  disp  hp drat   wt qsec vs am
+Mazda RX4           21.0   6 160.0 110 3.90 2.62 16.5  0  1
+Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.88 17.0  0  1
+Datsun 710          22.8   4 108.0  93 3.85 2.32 18.6  1  1
+Hornet 4 Drive      21.4   6 258.0 110 3.08 3.21 19.4  1  0
+Hornet Sportabout   18.7   8 360.0 175 3.15 3.44 17.0  0  0
+Valiant             18.1   6 225.0 105 2.76 3.46 20.2  1  0
+Duster 360          14.3   8 360.0 245 3.21 3.57 15.8  0  0
+Merc 240D           24.4   4 146.7  62 3.69 3.19 20.0  1  0
+Merc 230            22.8   4 140.8  95 3.92 3.15 22.9  1  0
+Merc 280            19.2   6 167.6 123 3.92 3.44 18.3  1  0
+Merc 280C           17.8   6 167.6 123 3.92 3.44 18.9  1  0
+Merc 450SE          16.4   8 275.8 180 3.07 4.07 17.4  0  0
+Merc 450SL          17.3   8 275.8 180 3.07 3.73 17.6  0  0
+Merc 450SLC         15.2   8 275.8 180 3.07 3.78 18.0  0  0
+Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.25 18.0  0  0
+Lincoln Continental 10.4   8 460.0 215 3.00 5.42 17.8  0  0
+Chrysler Imperial   14.7   8 440.0 230 3.23 5.34 17.4  0  0
+Fiat 128            32.4   4  78.7  66 4.08 2.20 19.5  1  1
+Honda Civic         30.4   4  75.7  52 4.93 1.61 18.5  1  1
+Toyota Corolla      33.9   4  71.1  65 4.22 1.83 19.9  1  1
+Toyota Corona       21.5   4 120.1  97 3.70 2.46 20.0  1  0
+Dodge Challenger    15.5   8 318.0 150 2.76 3.52 16.9  0  0
+AMC Javelin         15.2   8 304.0 150 3.15 3.44 17.3  0  0
+Camaro Z28          13.3   8 350.0 245 3.73 3.84 15.4  0  0
+Pontiac Firebird    19.2   8 400.0 175 3.08 3.85 17.1  0  0
+Fiat X1-9           27.3   4  79.0  66 4.08 1.94 18.9  1  1
+Porsche 914-2       26.0   4 120.3  91 4.43 2.14 16.7  0  1
+Lotus Europa        30.4   4  95.1 113 3.77 1.51 16.9  1  1
+Ford Pantera L      15.8   8 351.0 264 4.22 3.17 14.5  0  1
+Ferrari Dino        19.7   6 145.0 175 3.62 2.77 15.5  0  1
+Maserati Bora       15.0   8 301.0 335 3.54 3.57 14.6  0  1
+Volvo 142E          21.4   4 121.0 109 4.11 2.78 18.6  1  1
+                    gear carb
+Mazda RX4              4    4
+Mazda RX4 Wag          4    4
+Datsun 710             4    1
+Hornet 4 Drive         3    1
+Hornet Sportabout      3    2
+Valiant                3    1
+Duster 360             3    4
+Merc 240D              4    2
+Merc 230               4    2
+Merc 280               4    4
+Merc 280C              4    4
+Merc 450SE             3    3
+Merc 450SL             3    3
+Merc 450SLC            3    3
+Cadillac Fleetwood     3    4
+Lincoln Continental    3    4
+Chrysler Imperial      3    4
+Fiat 128               4    1
+Honda Civic            4    2
+Toyota Corolla         4    1
+Toyota Corona          3    1
+Dodge Challenger       3    2
+AMC Javelin            3    2
+Camaro Z28             3    4
+Pontiac Firebird       3    2
+Fiat X1-9              4    1
+Porsche 914-2          5    2
+Lotus Europa           5    2
+Ford Pantera L         5    4
+Ferrari Dino           5    6
+Maserati Bora          5    8
+Volvo 142E             4    2
+
+Call:
+lm(formula = mpg ~ wt, data = mtcars)
+
+Coefficients:
+(Intercept)           wt  
+      37.29        -5.34  
+
+
+Call:
+lm(formula = mpg ~ wt, data = mtcars)
+
+Coefficients:
+(Intercept)           wt  
+      37.29        -5.34  
+
+                     mpg cyl  disp  hp drat   wt qsec vs am
+Mazda RX4           21.0   6 160.0 110 3.90 2.62 16.5  0  1
+Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.88 17.0  0  1
+Datsun 710          22.8   4 108.0  93 3.85 2.32 18.6  1  1
+Hornet 4 Drive      21.4   6 258.0 110 3.08 3.21 19.4  1  0
+Hornet Sportabout   18.7   8 360.0 175 3.15 3.44 17.0  0  0
+Valiant             18.1   6 225.0 105 2.76 3.46 20.2  1  0
+Duster 360          14.3   8 360.0 245 3.21 3.57 15.8  0  0
+Merc 240D           24.4   4 146.7  62 3.69 3.19 20.0  1  0
+Merc 230            22.8   4 140.8  95 3.92 3.15 22.9  1  0
+Merc 280            19.2   6 167.6 123 3.92 3.44 18.3  1  0
+Merc 280C           17.8   6 167.6 123 3.92 3.44 18.9  1  0
+Merc 450SE          16.4   8 275.8 180 3.07 4.07 17.4  0  0
+Merc 450SL          17.3   8 275.8 180 3.07 3.73 17.6  0  0
+Merc 450SLC         15.2   8 275.8 180 3.07 3.78 18.0  0  0
+Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.25 18.0  0  0
+Lincoln Continental 10.4   8 460.0 215 3.00 5.42 17.8  0  0
+Chrysler Imperial   14.7   8 440.0 230 3.23 5.34 17.4  0  0
+Fiat 128            32.4   4  78.7  66 4.08 2.20 19.5  1  1
+Honda Civic         30.4   4  75.7  52 4.93 1.61 18.5  1  1
+Toyota Corolla      33.9   4  71.1  65 4.22 1.83 19.9  1  1
+Toyota Corona       21.5   4 120.1  97 3.70 2.46 20.0  1  0
+Dodge Challenger    15.5   8 318.0 150 2.76 3.52 16.9  0  0
+AMC Javelin         15.2   8 304.0 150 3.15 3.44 17.3  0  0
+Camaro Z28          13.3   8 350.0 245 3.73 3.84 15.4  0  0
+Pontiac Firebird    19.2   8 400.0 175 3.08 3.85 17.1  0  0
+Fiat X1-9           27.3   4  79.0  66 4.08 1.94 18.9  1  1
+Porsche 914-2       26.0   4 120.3  91 4.43 2.14 16.7  0  1
+Lotus Europa        30.4   4  95.1 113 3.77 1.51 16.9  1  1
+Ford Pantera L      15.8   8 351.0 264 4.22 3.17 14.5  0  1
+Ferrari Dino        19.7   6 145.0 175 3.62 2.77 15.5  0  1
+Maserati Bora       15.0   8 301.0 335 3.54 3.57 14.6  0  1
+Volvo 142E          21.4   4 121.0 109 4.11 2.78 18.6  1  1
+                    gear carb
+Mazda RX4              4    4
+Mazda RX4 Wag          4    4
+Datsun 710             4    1
+Hornet 4 Drive         3    1
+Hornet Sportabout      3    2
+Valiant                3    1
+Duster 360             3    4
+Merc 240D              4    2
+Merc 230               4    2
+Merc 280               4    4
+Merc 280C              4    4
+Merc 450SE             3    3
+Merc 450SL             3    3
+Merc 450SLC            3    3
+Cadillac Fleetwood     3    4
+Lincoln Continental    3    4
+Chrysler Imperial      3    4
+Fiat 128               4    1
+Honda Civic            4    2
+Toyota Corolla         4    1
+Toyota Corona          3    1
+Dodge Challenger       3    2
+AMC Javelin            3    2
+Camaro Z28             3    4
+Pontiac Firebird       3    2
+Fiat X1-9              4    1
+Porsche 914-2          5    2
+Lotus Europa           5    2
+Ford Pantera L         5    4
+Ferrari Dino           5    6
+Maserati Bora          5    8
+Volvo 142E             4    2
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+[1] 32 11
+ [1] "mpg"  "cyl"  "disp" "hp"   "drat" "wt"   "qsec" "vs"  
+ [9] "am"   "gear" "carb"
+ [1] "Mazda RX4"           "Mazda RX4 Wag"      
+ [3] "Datsun 710"          "Hornet 4 Drive"     
+ [5] "Hornet Sportabout"   "Valiant"            
+ [7] "Duster 360"          "Merc 240D"          
+ [9] "Merc 230"            "Merc 280"           
+[11] "Merc 280C"           "Merc 450SE"         
+[13] "Merc 450SL"          "Merc 450SLC"        
+[15] "Cadillac Fleetwood"  "Lincoln Continental"
+[17] "Chrysler Imperial"   "Fiat 128"           
+[19] "Honda Civic"         "Toyota Corolla"     
+[21] "Toyota Corona"       "Dodge Challenger"   
+[23] "AMC Javelin"         "Camaro Z28"         
+[25] "Pontiac Firebird"    "Fiat X1-9"          
+[27] "Porsche 914-2"       "Lotus Europa"       
+[29] "Ford Pantera L"      "Ferrari Dino"       
+[31] "Maserati Bora"       "Volvo 142E"         
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+[1] 32 11
+ [1] "mpg"  "cyl"  "disp" "hp"   "drat" "wt"   "qsec" "vs"  
+ [9] "am"   "gear" "carb"
+ [1] "Mazda RX4"           "Mazda RX4 Wag"      
+ [3] "Datsun 710"          "Hornet 4 Drive"     
+ [5] "Hornet Sportabout"   "Valiant"            
+ [7] "Duster 360"          "Merc 240D"          
+ [9] "Merc 230"            "Merc 280"           
+[11] "Merc 280C"           "Merc 450SE"         
+[13] "Merc 450SL"          "Merc 450SLC"        
+[15] "Cadillac Fleetwood"  "Lincoln Continental"
+[17] "Chrysler Imperial"   "Fiat 128"           
+[19] "Honda Civic"         "Toyota Corolla"     
+[21] "Toyota Corona"       "Dodge Challenger"   
+[23] "AMC Javelin"         "Camaro Z28"         
+[25] "Pontiac Firebird"    "Fiat X1-9"          
+[27] "Porsche 914-2"       "Lotus Europa"       
+[29] "Ford Pantera L"      "Ferrari Dino"       
+[31] "Maserati Bora"       "Volvo 142E"         
+      mpg            cyl            disp           hp     
+ Min.   :10.4   Min.   :4.00   Min.   : 71   Min.   : 52  
+ 1st Qu.:15.4   1st Qu.:4.00   1st Qu.:121   1st Qu.: 96  
+ Median :19.2   Median :6.00   Median :196   Median :123  
+ Mean   :20.1   Mean   :6.19   Mean   :231   Mean   :147  
+ 3rd Qu.:22.8   3rd Qu.:8.00   3rd Qu.:326   3rd Qu.:180  
+ Max.   :33.9   Max.   :8.00   Max.   :472   Max.   :335  
+      drat            wt            qsec     
+ Min.   :2.76   Min.   :1.51   Min.   :14.5  
+ 1st Qu.:3.08   1st Qu.:2.58   1st Qu.:16.9  
+ Median :3.69   Median :3.33   Median :17.7  
+ Mean   :3.60   Mean   :3.22   Mean   :17.9  
+ 3rd Qu.:3.92   3rd Qu.:3.61   3rd Qu.:18.9  
+ Max.   :4.93   Max.   :5.42   Max.   :22.9  
+       vs              am             gear     
+ Min.   :0.000   Min.   :0.000   Min.   :3.00  
+ 1st Qu.:0.000   1st Qu.:0.000   1st Qu.:3.00  
+ Median :0.000   Median :0.000   Median :4.00  
+ Mean   :0.438   Mean   :0.406   Mean   :3.69  
+ 3rd Qu.:1.000   3rd Qu.:1.000   3rd Qu.:4.00  
+ Max.   :1.000   Max.   :1.000   Max.   :5.00  
+      carb     
+ Min.   :1.00  
+ 1st Qu.:2.00  
+ Median :2.00  
+ Mean   :2.81  
+ 3rd Qu.:4.00  
+ Max.   :8.00  
+[1] 214
+   mpg gear
+1 21.0    4
+2 21.0    4
+3 22.8    4
+4 21.4    3
+5 18.7    3
+6 19.2    4
+    mpg cyl  disp  hp drat   wt qsec vs am gear carb
+1  10.4   8 472.0 205 2.93 5.25 18.0  0  0    3    4
+2  10.4   8 460.0 215 3.00 5.42 17.8  0  0    3    4
+3  13.3   8 350.0 245 3.73 3.84 15.4  0  0    3    4
+4  14.3   8 360.0 245 3.21 3.57 15.8  0  0    3    4
+5  14.7   8 440.0 230 3.23 5.34 17.4  0  0    3    4
+6  15.0   8 301.0 335 3.54 3.57 14.6  0  1    5    8
+7  15.2   8 275.8 180 3.07 3.78 18.0  0  0    3    3
+8  15.2   8 304.0 150 3.15 3.44 17.3  0  0    3    2
+9  15.5   8 318.0 150 2.76 3.52 16.9  0  0    3    2
+10 15.8   8 351.0 264 4.22 3.17 14.5  0  1    5    4
+11 16.4   8 275.8 180 3.07 4.07 17.4  0  0    3    3
+12 17.3   8 275.8 180 3.07 3.73 17.6  0  0    3    3
+13 17.8   6 167.6 123 3.92 3.44 18.9  1  0    4    4
+14 18.1   6 225.0 105 2.76 3.46 20.2  1  0    3    1
+15 18.7   8 360.0 175 3.15 3.44 17.0  0  0    3    2
+16 19.2   6 167.6 123 3.92 3.44 18.3  1  0    4    4
+17 19.2   8 400.0 175 3.08 3.85 17.1  0  0    3    2
+18 19.7   6 145.0 175 3.62 2.77 15.5  0  1    5    6
+19 21.0   6 160.0 110 3.90 2.62 16.5  0  1    4    4
+20 21.0   6 160.0 110 3.90 2.88 17.0  0  1    4    4
+21 21.4   6 258.0 110 3.08 3.21 19.4  1  0    3    1
+22 21.4   4 121.0 109 4.11 2.78 18.6  1  1    4    2
+23 21.5   4 120.1  97 3.70 2.46 20.0  1  0    3    1
+24 22.8   4 108.0  93 3.85 2.32 18.6  1  1    4    1
+25 22.8   4 140.8  95 3.92 3.15 22.9  1  0    4    2
+26 24.4   4 146.7  62 3.69 3.19 20.0  1  0    4    2
+27 26.0   4 120.3  91 4.43 2.14 16.7  0  1    5    2
+28 27.3   4  79.0  66 4.08 1.94 18.9  1  1    4    1
+29 30.4   4  75.7  52 4.93 1.61 18.5  1  1    4    2
+30 30.4   4  95.1 113 3.77 1.51 16.9  1  1    5    2
+31 32.4   4  78.7  66 4.08 2.20 19.5  1  1    4    1
+32 33.9   4  71.1  65 4.22 1.83 19.9  1  1    4    1
+   am  mpg
+1   0 24.4
+2   0 22.8
+3   0 21.5
+4   0 21.4
+5   0 19.2
+6   0 19.2
+7   0 18.7
+8   0 18.1
+9   0 17.8
+10  0 17.3
+11  0 16.4
+12  0 15.5
+13  0 15.2
+14  0 15.2
+15  0 14.7
+16  0 14.3
+17  0 13.3
+18  0 10.4
+19  0 10.4
+20  1 33.9
+21  1 32.4
+22  1 30.4
+23  1 30.4
+24  1 27.3
+25  1 26.0
+26  1 22.8
+27  1 21.4
+28  1 21.0
+29  1 21.0
+30  1 19.7
+31  1 15.8
+32  1 15.0
+                    rn  mpg
+1            Mazda RX4 21.0
+2        Mazda RX4 Wag 21.0
+3           Datsun 710 22.8
+4       Hornet 4 Drive 21.4
+5    Hornet Sportabout 18.7
+6              Valiant 18.1
+7           Duster 360 14.3
+8            Merc 240D 24.4
+9             Merc 230 22.8
+10            Merc 280 19.2
+11           Merc 280C 17.8
+12          Merc 450SE 16.4
+13          Merc 450SL 17.3
+14         Merc 450SLC 15.2
+15  Cadillac Fleetwood 10.4
+16 Lincoln Continental 10.4
+17   Chrysler Imperial 14.7
+18            Fiat 128 32.4
+19         Honda Civic 30.4
+20      Toyota Corolla 33.9
+21       Toyota Corona 21.5
+22    Dodge Challenger 15.5
+23         AMC Javelin 15.2
+24          Camaro Z28 13.3
+25    Pontiac Firebird 19.2
+26           Fiat X1-9 27.3
+27       Porsche 914-2 26.0
+28        Lotus Europa 30.4
+29      Ford Pantera L 15.8
+30        Ferrari Dino 19.7
+31       Maserati Bora 15.0
+32          Volvo 142E 21.4
+             mpg cyl  disp  hp drat   wt qsec vs am gear
+Merc 450SLC 15.2   8 275.8 180 3.07 3.78 18.0  0  0    3
+Fiat 128    32.4   4  78.7  66 4.08 2.20 19.5  1  1    4
+Merc 450SL  17.3   8 275.8 180 3.07 3.73 17.6  0  0    3
+            carb
+Merc 450SLC    3
+Fiat 128       1
+Merc 450SL     3
+                  mpg cyl  disp  hp drat   wt qsec vs am
+Merc 240D        24.4   4 146.7  62 3.69 3.19 20.0  1  0
+Datsun 710       22.8   4 108.0  93 3.85 2.32 18.6  1  1
+Toyota Corolla   33.9   4  71.1  65 4.22 1.83 19.9  1  1
+Merc 450SL       17.3   8 275.8 180 3.07 3.73 17.6  0  0
+Maserati Bora    15.0   8 301.0 335 3.54 3.57 14.6  0  1
+Dodge Challenger 15.5   8 318.0 150 2.76 3.52 16.9  0  0
+                 gear carb
+Merc 240D           4    2
+Datsun 710          4    1
+Toyota Corolla      4    1
+Merc 450SL          3    3
+Maserati Bora       5    8
+Dodge Challenger    3    2
+                     hp vs
+Mazda RX4           110  0
+Mazda RX4 Wag       110  0
+Datsun 710           93  1
+Hornet 4 Drive      110  1
+Hornet Sportabout   175  0
+Valiant             105  1
+Duster 360          245  0
+Merc 240D            62  1
+Merc 230             95  1
+Merc 280            123  1
+Merc 280C           123  1
+Merc 450SE          180  0
+Merc 450SL          180  0
+Merc 450SLC         180  0
+Cadillac Fleetwood  205  0
+Lincoln Continental 215  0
+Chrysler Imperial   230  0
+Fiat 128             66  1
+Honda Civic          52  1
+Toyota Corolla       65  1
+Toyota Corona        97  1
+Dodge Challenger    150  0
+AMC Javelin         150  0
+Camaro Z28          245  0
+Pontiac Firebird    175  0
+Fiat X1-9            66  1
+Porsche 914-2        91  0
+Lotus Europa        113  1
+Ford Pantera L      264  0
+Ferrari Dino        175  0
+Maserati Bora       335  0
+Volvo 142E          109  1
+    mpg cyl  disp  hp drat   wt qsec vs am gear carb newmpg
+1  21.0   6 160.0 110 3.90 2.62 16.5  0  1    4    4   23.1
+2  21.0   6 160.0 110 3.90 2.88 17.0  0  1    4    4   23.1
+3  22.8   4 108.0  93 3.85 2.32 18.6  1  1    4    1   25.1
+4  21.4   6 258.0 110 3.08 3.21 19.4  1  0    3    1   23.5
+5  18.7   8 360.0 175 3.15 3.44 17.0  0  0    3    2   20.6
+6  18.1   6 225.0 105 2.76 3.46 20.2  1  0    3    1   19.9
+7  14.3   8 360.0 245 3.21 3.57 15.8  0  0    3    4   15.7
+8  24.4   4 146.7  62 3.69 3.19 20.0  1  0    4    2   26.8
+9  22.8   4 140.8  95 3.92 3.15 22.9  1  0    4    2   25.1
+10 19.2   6 167.6 123 3.92 3.44 18.3  1  0    4    4   21.1
+11 17.8   6 167.6 123 3.92 3.44 18.9  1  0    4    4   19.6
+12 16.4   8 275.8 180 3.07 4.07 17.4  0  0    3    3   18.0
+13 17.3   8 275.8 180 3.07 3.73 17.6  0  0    3    3   19.0
+14 15.2   8 275.8 180 3.07 3.78 18.0  0  0    3    3   16.7
+15 10.4   8 472.0 205 2.93 5.25 18.0  0  0    3    4   11.4
+16 10.4   8 460.0 215 3.00 5.42 17.8  0  0    3    4   11.4
+17 14.7   8 440.0 230 3.23 5.34 17.4  0  0    3    4   16.2
+18 32.4   4  78.7  66 4.08 2.20 19.5  1  1    4    1   35.6
+19 30.4   4  75.7  52 4.93 1.61 18.5  1  1    4    2   33.4
+20 33.9   4  71.1  65 4.22 1.83 19.9  1  1    4    1   37.3
+21 21.5   4 120.1  97 3.70 2.46 20.0  1  0    3    1   23.7
+22 15.5   8 318.0 150 2.76 3.52 16.9  0  0    3    2   17.1
+23 15.2   8 304.0 150 3.15 3.44 17.3  0  0    3    2   16.7
+24 13.3   8 350.0 245 3.73 3.84 15.4  0  0    3    4   14.6
+25 19.2   8 400.0 175 3.08 3.85 17.1  0  0    3    2   21.1
+26 27.3   4  79.0  66 4.08 1.94 18.9  1  1    4    1   30.0
+27 26.0   4 120.3  91 4.43 2.14 16.7  0  1    5    2   28.6
+28 30.4   4  95.1 113 3.77 1.51 16.9  1  1    5    2   33.4
+29 15.8   8 351.0 264 4.22 3.17 14.5  0  1    5    4   17.4
+30 19.7   6 145.0 175 3.62 2.77 15.5  0  1    5    6   21.7
+31 15.0   8 301.0 335 3.54 3.57 14.6  0  1    5    8   16.5
+32 21.4   4 121.0 109 4.11 2.78 18.6  1  1    4    2   23.5
+    mpg cyl  disp  hp drat   wt qsec vs am gear carb newmpg
+1  21.0   6 160.0 110 3.90 2.62 16.5  0  1    4    4   25.2
+2  21.0   6 160.0 110 3.90 2.88 17.0  0  1    4    4   25.2
+3  22.8   4 108.0  93 3.85 2.32 18.6  1  1    4    1   27.4
+4  21.4   6 258.0 110 3.08 3.21 19.4  1  0    3    1   25.7
+5  18.7   8 360.0 175 3.15 3.44 17.0  0  0    3    2   22.4
+6  18.1   6 225.0 105 2.76 3.46 20.2  1  0    3    1   21.7
+7  14.3   8 360.0 245 3.21 3.57 15.8  0  0    3    4   17.2
+8  24.4   4 146.7  62 3.69 3.19 20.0  1  0    4    2   29.3
+9  22.8   4 140.8  95 3.92 3.15 22.9  1  0    4    2   27.4
+10 19.2   6 167.6 123 3.92 3.44 18.3  1  0    4    4   23.0
+11 17.8   6 167.6 123 3.92 3.44 18.9  1  0    4    4   21.4
+12 16.4   8 275.8 180 3.07 4.07 17.4  0  0    3    3   19.7
+13 17.3   8 275.8 180 3.07 3.73 17.6  0  0    3    3   20.8
+14 15.2   8 275.8 180 3.07 3.78 18.0  0  0    3    3   18.2
+15 10.4   8 472.0 205 2.93 5.25 18.0  0  0    3    4   12.5
+16 10.4   8 460.0 215 3.00 5.42 17.8  0  0    3    4   12.5
+17 14.7   8 440.0 230 3.23 5.34 17.4  0  0    3    4   17.6
+18 32.4   4  78.7  66 4.08 2.20 19.5  1  1    4    1   38.9
+19 30.4   4  75.7  52 4.93 1.61 18.5  1  1    4    2   36.5
+20 33.9   4  71.1  65 4.22 1.83 19.9  1  1    4    1   40.7
+21 21.5   4 120.1  97 3.70 2.46 20.0  1  0    3    1   25.8
+22 15.5   8 318.0 150 2.76 3.52 16.9  0  0    3    2   18.6
+23 15.2   8 304.0 150 3.15 3.44 17.3  0  0    3    2   18.2
+24 13.3   8 350.0 245 3.73 3.84 15.4  0  0    3    4   16.0
+25 19.2   8 400.0 175 3.08 3.85 17.1  0  0    3    2   23.0
+26 27.3   4  79.0  66 4.08 1.94 18.9  1  1    4    1   32.8
+27 26.0   4 120.3  91 4.43 2.14 16.7  0  1    5    2   31.2
+28 30.4   4  95.1 113 3.77 1.51 16.9  1  1    5    2   36.5
+29 15.8   8 351.0 264 4.22 3.17 14.5  0  1    5    4   19.0
+30 19.7   6 145.0 175 3.62 2.77 15.5  0  1    5    6   23.6
+31 15.0   8 301.0 335 3.54 3.57 14.6  0  1    5    8   18.0
+32 21.4   4 121.0 109 4.11 2.78 18.6  1  1    4    2   25.7
+# A tibble: 2 x 2
+     am meanmpg
+  <dbl>   <dbl>
+1     0    17.1
+2     1    24.4
+# A tibble: 2 x 4
+     am Meanmpg maxhp minwt
+  <dbl>   <dbl> <dbl> <dbl>
+1     0    17.1   245  2.46
+2     1    24.4   335  1.51
+# A tibble: 8 x 3
+# Groups:   gear [?]
+   gear   cyl meanmpg
+  <dbl> <dbl>   <dbl>
+1     3     4    21.5
+2     3     6    19.8
+3     3     8    15.0
+4     4     4    26.9
+5     4     6    19.8
+6     5     4    28.2
+7     5     6    19.7
+8     5     8    15.4
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+                mpg cyl  disp  hp drat   wt qsec vs am gear
+Porsche 914-2  26.0   4 120.3  91 4.43 2.14 16.7  0  1    5
+Lotus Europa   30.4   4  95.1 113 3.77 1.51 16.9  1  1    5
+Ford Pantera L 15.8   8 351.0 264 4.22 3.17 14.5  0  1    5
+Ferrari Dino   19.7   6 145.0 175 3.62 2.77 15.5  0  1    5
+Maserati Bora  15.0   8 301.0 335 3.54 3.57 14.6  0  1    5
+Volvo 142E     21.4   4 121.0 109 4.11 2.78 18.6  1  1    4
+               carb
+Porsche 914-2     2
+Lotus Europa      2
+Ford Pantera L    4
+Ferrari Dino      6
+Maserati Bora     8
+Volvo 142E        2
+[1] "mtcars"
+[1] "mtcars"
+                     mpg cyl  disp  hp drat   wt qsec vs am
+Mazda RX4           21.0   6 160.0 110 3.90 2.62 16.5  0  1
+Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.88 17.0  0  1
+Datsun 710          22.8   4 108.0  93 3.85 2.32 18.6  1  1
+Hornet 4 Drive      21.4   6 258.0 110 3.08 3.21 19.4  1  0
+Hornet Sportabout   18.7   8 360.0 175 3.15 3.44 17.0  0  0
+Valiant             18.1   6 225.0 105 2.76 3.46 20.2  1  0
+Duster 360          14.3   8 360.0 245 3.21 3.57 15.8  0  0
+Merc 240D           24.4   4 146.7  62 3.69 3.19 20.0  1  0
+Merc 230            22.8   4 140.8  95 3.92 3.15 22.9  1  0
+Merc 280            19.2   6 167.6 123 3.92 3.44 18.3  1  0
+Merc 280C           17.8   6 167.6 123 3.92 3.44 18.9  1  0
+Merc 450SE          16.4   8 275.8 180 3.07 4.07 17.4  0  0
+Merc 450SL          17.3   8 275.8 180 3.07 3.73 17.6  0  0
+Merc 450SLC         15.2   8 275.8 180 3.07 3.78 18.0  0  0
+Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.25 18.0  0  0
+Lincoln Continental 10.4   8 460.0 215 3.00 5.42 17.8  0  0
+Chrysler Imperial   14.7   8 440.0 230 3.23 5.34 17.4  0  0
+Fiat 128            32.4   4  78.7  66 4.08 2.20 19.5  1  1
+Honda Civic         30.4   4  75.7  52 4.93 1.61 18.5  1  1
+Toyota Corolla      33.9   4  71.1  65 4.22 1.83 19.9  1  1
+Toyota Corona       21.5   4 120.1  97 3.70 2.46 20.0  1  0
+Dodge Challenger    15.5   8 318.0 150 2.76 3.52 16.9  0  0
+AMC Javelin         15.2   8 304.0 150 3.15 3.44 17.3  0  0
+Camaro Z28          13.3   8 350.0 245 3.73 3.84 15.4  0  0
+Pontiac Firebird    19.2   8 400.0 175 3.08 3.85 17.1  0  0
+Fiat X1-9           27.3   4  79.0  66 4.08 1.94 18.9  1  1
+Porsche 914-2       26.0   4 120.3  91 4.43 2.14 16.7  0  1
+Lotus Europa        30.4   4  95.1 113 3.77 1.51 16.9  1  1
+Ford Pantera L      15.8   8 351.0 264 4.22 3.17 14.5  0  1
+Ferrari Dino        19.7   6 145.0 175 3.62 2.77 15.5  0  1
+Maserati Bora       15.0   8 301.0 335 3.54 3.57 14.6  0  1
+Volvo 142E          21.4   4 121.0 109 4.11 2.78 18.6  1  1
+                    gear carb
+Mazda RX4              4    4
+Mazda RX4 Wag          4    4
+Datsun 710             4    1
+Hornet 4 Drive         3    1
+Hornet Sportabout      3    2
+Valiant                3    1
+Duster 360             3    4
+Merc 240D              4    2
+Merc 230               4    2
+Merc 280               4    4
+Merc 280C              4    4
+Merc 450SE             3    3
+Merc 450SL             3    3
+Merc 450SLC            3    3
+Cadillac Fleetwood     3    4
+Lincoln Continental    3    4
+Chrysler Imperial      3    4
+Fiat 128               4    1
+Honda Civic            4    2
+Toyota Corolla         4    1
+Toyota Corona          3    1
+Dodge Challenger       3    2
+AMC Javelin            3    2
+Camaro Z28             3    4
+Pontiac Firebird       3    2
+Fiat X1-9              4    1
+Porsche 914-2          5    2
+Lotus Europa           5    2
+Ford Pantera L         5    4
+Ferrari Dino           5    6
+Maserati Bora          5    8
+Volvo 142E             4    2

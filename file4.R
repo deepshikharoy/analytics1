@@ -1,8 +1,9 @@
 (gender = sample(c('m','f'),size=30,replace=T, prob=c(.7, .3)))
 table(gender)
-prop.table(table(gender)
-summery(x)
+prop.table(table(gender))
+summary(x)
 (x=rnorm(100, mean=60, sd=10))
+boxplot(x)
 summery(x) #summery of x
 
 quantile(x) #quantile
